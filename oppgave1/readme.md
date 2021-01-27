@@ -1,11 +1,5 @@
-*********************************
-*				*
-*	Oppgaver til L2		*
-*				*
-*********************************
+#Oppgaver til L2
 
-#Oppgaver:
-Oppgavetekst
 ## Oppgave 1
 Lag HTMLentildesignskissen nedenfor. Bruk semantiske tagger
 ## Oppgave 2
