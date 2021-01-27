@@ -1,7 +1,7 @@
 #Oppgaver til L2
 
 ## Oppgave 1
-Lag HTMLentildesignskissen nedenfor. Bruk semantiske tagger
+Lag HTMLentildesignskissen. Bruk semantiske tagger
 ## Oppgave 2
 Stilsett HTMLen i oppgave 1 medcss/scssslik at det ligner 
 designskissen.Bruk grid eller flexbox for å stilsette todo-kortene
@@ -20,5 +20,7 @@ Denne mappen inneholder filene
 	- styles.css
 Sammen danner de et nettsted med todo cards som er beskrevet i 
 oppgaveteksten og designskissene. 
+
+Jeg har også lagt opp resultatet så det kan sees live på silje.it/diverse
 
 
