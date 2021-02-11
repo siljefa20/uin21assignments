@@ -2,9 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <!-- <script src="functions.js"></script> -->
         <link rel="stylesheet" href="styles.css">
-
         <!-- Jeg søkte opp lignende google fonter som jeg kunne bruke i stedet for avenir som ble 
             brukt i skissen og folk på nettet mener nunito er et godt alternativ-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,7 +13,7 @@
     </head>
     <body>
         <header id="topheader">
-            <h1 class="topheader">Titel?</h1>
+            <h1 class="topheader">Page title</h1>
             <nav class="navigation topheader">
                 <h2 class="topheader">User</h1>
                 <h2 class="topheader">user</h1>
@@ -23,53 +21,23 @@
         </header>
         <main>
             <section>
-                <form action="">
+                <form>
                     <label>Title</label>
-                    <input type="text" >
+                    <input type="text" id="title">
                     <label>Content</label>
                     <textarea name="descriptiontext" id="desctxt" cols="30" rows="10"></textarea>
-                    <button id="btnadd">Add</button>
-                </form>             
+                </form>
+                <button type="button" id="btnadd">Add</button>             
             </section>
             <section>
                 <header>
                     <h1>My todos</h1>
                 </header>
-                <!-- todo cards comes here -->
                 <section id="mytodos">
-                    <article class="todocards">
-                        <h2>Title</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione suscipit fuga...</p>
-                        <button id="btncompleted">Completed</button>
-                    </article>
-                    <article class="todocards">
-                        <h2>Title</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione suscipit fuga...</p>
-                        <button id="btncompleted">Completed</button>
-                    </article>
-                    <article class="todocards">
-                        <h2>Title</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione suscipit fuga...</p>
-                        <button id="btncompleted">Completed</button>
-                    </article>
-                    <article class="todocards">
-                        <h2>Title</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione suscipit fuga...</p>
-                        <button id="btncompleted">Completed</button>
-                    </article>
-                    <article class="todocards">
-                        <h2>Title</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione suscipit fuga...</p>
-                        <button id="btncompleted">Completed</button>
-                    </article>
-                    <article class="todocards">
-                        <h2>Title</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione suscipit fuga...</p>
-                        <button id="btncompleted">Completed</button>
-                    </article>
-                    
+                    <!-- Her kommer todo kortene generert opp i javascripten -->
                 </section>
             </section>
         </main>
     </body>
+    <script src="functions.js"></script>
 </html>

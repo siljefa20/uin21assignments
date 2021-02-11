@@ -64,7 +64,7 @@ textarea {
     font-family: 'Nunito Sans', sans-serif;
 
 }
-#btncompleted{
+.btncompleted{
     height: 5%;
     padding: 2%;
     border: none;
